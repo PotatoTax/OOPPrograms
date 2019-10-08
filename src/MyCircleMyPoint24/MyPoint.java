@@ -1,13 +1,15 @@
-public class MyPoint24 {
+package MyCircleMyPoint24;
+
+public class MyPoint {
     private int x;
     private int y;
 
-    public MyPoint24() {
+    public MyPoint() {
         x = 0;
         y = 0;
     }
 
-    public MyPoint24(int x, int y) {
+    public MyPoint(int x, int y) {
         this.x = x;
         this.y = y;
     }
@@ -55,7 +57,7 @@ public class MyPoint24 {
         return Math.sqrt((this.x - x)^2 + (this.y - y)^2);
     }
 
-    public double distance(MyPoint24 point)
+    public double distance(MyPoint point)
     {
         return Math.sqrt((this.x - point.getX())^2 + (this.y - point.getY())^2);
     }

@@ -1,10 +1,14 @@
-public class TestBook21 {
+package Book21;
+
+import Author21.Author;
+
+public class TestBook {
     public static void main(String[] args)
     {
-        Author21 ahTeck = new Author21("Tan Ah Teck", "ahteck@nowhere.com", 'm');
+        Author ahTeck = new Author("Tan Ah Teck", "ahteck@nowhere.com", 'm');
         System.out.println(ahTeck);
 
-        Book21 dummyBook21 = new Book21("Java for dummy", ahTeck, 19.95, 99);
+        Book dummyBook21 = new Book("Java for dummy", ahTeck, 19.95, 99);
         System.out.println(dummyBook21);
 
         dummyBook21.setPrice(29.95);
@@ -16,7 +20,7 @@ public class TestBook21 {
         System.out.println("Author's name is: " + dummyBook21.getAuthor().getName());
         System.out.println("Author's email is: " + dummyBook21.getAuthor().getEmail());
 
-        Book21 anotherBook21 = new Book21("more Java", new Author21("Paul Tan", "paul@somewhere.com", 'm'), 29.95);
+        Book anotherBook21 = new Book("more Java", new Author("Paul Tan", "paul@somewhere.com", 'm'), 29.95);
         System.out.println(anotherBook21);
     }
 }

@@ -1,4 +1,6 @@
-public class Circle11 {
+package Circle11;
+
+public class Circle {
     double getArea()
     {
         return radius*radius*Math.PI;
@@ -33,19 +35,19 @@ public class Circle11 {
                 '}';
     }
 
-    Circle11()
+    Circle()
     {
         this.radius = 1.0;
         this.color = "red";
     }
 
-    Circle11(double radius)
+    Circle(double radius)
     {
         this.radius = radius;
         this.color = "red";
     }
 
-    public Circle11(double radius, String color)
+    public Circle(double radius, String color)
     {
         this.radius = radius;
         this.color = color;

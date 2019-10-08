@@ -1,7 +1,9 @@
-public class TestAuthor21 {
+package Author21;
+
+public class TestAuthor {
     public static void main(String[] args)
     {
-        Author21 ahTeck = new Author21("Tan Ah Teck", "ahteck@nowhere.com", 'm');
+        Author ahTeck = new Author("Tan Ah Teck", "ahteck@nowhere.com", 'm');
         System.out.println(ahTeck);
         ahTeck.setEmail("paulTan@nowhere.com");
         System.out.println("name is: " + ahTeck.getName());

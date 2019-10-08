@@ -1,16 +1,20 @@
-public class Book21 {
+package Book21;
+
+import Author21.Author;
+
+public class Book {
     private String name;
-    private Author21 author21;
+    private Author author21;
     private double price;
     private int qty;
 
-    public Book21(String name, Author21 author21, double price) {
+    public Book(String name, Author author21, double price) {
         this.name = name;
         this.author21 = author21;
         this.price = price;
     }
 
-    public Book21(String name, Author21 author21, double price, int qty) {
+    public Book(String name, Author author21, double price, int qty) {
         this.name = name;
         this.author21 = author21;
         this.price = price;
@@ -21,7 +25,7 @@ public class Book21 {
         return name;
     }
 
-    public Author21 getAuthor() {
+    public Author getAuthor() {
         return author21;
     }
 

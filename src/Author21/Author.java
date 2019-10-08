@@ -1,9 +1,11 @@
-public class Author21 {
+package Author21;
+
+public class Author {
     private String name;
     private String email;
     private char gender;
 
-    public Author21(String name, String email, char gender) {
+    public Author(String name, String email, char gender) {
         this.name = name;
         this.email = email;
         this.gender = gender;
