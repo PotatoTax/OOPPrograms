@@ -29,7 +29,8 @@ public class Staff extends Person {
     @Override
     public String toString() {
         return "Staff{" +
-                "school='" + school + '\'' +
+                super.toString() +
+                ", school='" + school + '\'' +
                 ", pay=" + pay +
                 '}';
     }
